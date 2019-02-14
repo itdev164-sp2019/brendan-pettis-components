@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 const StyledButton = styled(ButtonBase)`
   padding: 8px;
-  color: ${props => (props.variant == 'primary' ? 'blue' : 'white')};
+  color: ${props => (props.variant === 'primary' ? 'blue' : 'white')};
 `
 export const LinkButton = props => <StyledButton {...props} />
 
