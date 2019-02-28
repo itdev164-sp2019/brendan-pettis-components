@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { Search } from 'styled-icons/feather'
-import Layout from "../components/layout"
+import Layout from "../layouts/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
