@@ -1,0 +1,506 @@
+[
+  {
+    "id": {
+      "scope": "bit.envs",
+      "name": "compilers/react"
+    },
+    "isSymlink": false,
+    "hash": "acfc8a808ec3ad8abacd313c9c8b456c1fd7b0b3"
+  },
+  {
+    "id": {
+      "scope": "bit.envs",
+      "name": "internal/get-babel-options"
+    },
+    "isSymlink": false,
+    "hash": "d4771e232e52a7a9ef391bf363d523bc932b014d"
+  },
+  {
+    "id": {
+      "scope": "bit.envs",
+      "name": "internal/babel-base-compiler"
+    },
+    "isSymlink": false,
+    "hash": "98f497a5e1cba818d2d5da02020ed566a572b936"
+  },
+  {
+    "id": {
+      "scope": "bit.utils",
+      "name": "object/has-own-property"
+    },
+    "isSymlink": false,
+    "hash": "68b489f0ac79f13787c77dc1fd6a7beb18a7b6ba"
+  },
+  {
+    "id": {
+      "scope": "bit.utils",
+      "name": "object/group-by"
+    },
+    "isSymlink": false,
+    "hash": "9155f60c15a0d4c1c0301f15ef2a09a99687ca77"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "address/address"
+    },
+    "isSymlink": true,
+    "hash": "9d64ba365ebe34930caae9f91fcdcf5f0d7e252d"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "base-container/base-container"
+    },
+    "isSymlink": true,
+    "hash": "557ca7fd9ce7bdbe668f40918a0be07fd3b7cece"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "element/button"
+    },
+    "isSymlink": true,
+    "hash": "7e7600778544a40260abd249540c6382664a4f1e"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "button/button"
+    },
+    "isSymlink": true,
+    "hash": "39ff972603da3c3e0df78e664241b6c2c9e3e39b"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "button-base"
+    },
+    "isSymlink": true,
+    "hash": "3038bda601dfe220b9aa93466773cc144223ca8f"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "icon-button"
+    },
+    "isSymlink": true,
+    "hash": "e524a7583d582143e7905fe55519f4db94dbc623"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "link-button"
+    },
+    "isSymlink": true,
+    "hash": "d6d5d11ffedd328f19d48b5418826ee45d17a065"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "button/index"
+    },
+    "isSymlink": true,
+    "hash": "3e1282e04d7e4d34fac029dde73fdfac1e964481"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "footer/footer"
+    },
+    "isSymlink": true,
+    "hash": "861f5c4138a3418120ffccc21c301940fedb292a"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "header/header"
+    },
+    "isSymlink": true,
+    "hash": "14ad9212a49f4f20f920e1ca44c38c42fc9394cb"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "main/main"
+    },
+    "isSymlink": true,
+    "hash": "58d5fedafe74c251f4f3cf37a1eed6a96e7c78de"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "section/section"
+    },
+    "isSymlink": true,
+    "hash": "d2436f984fbaf572591de0d671512e55cc4a7df6"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "element/index"
+    },
+    "isSymlink": true,
+    "hash": "9ea6dfa0ed53885c919b31c54f79b560128c1e28"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "masthead/masthead"
+    },
+    "isSymlink": true,
+    "hash": "047c35dc9181ba02d90aa69f57b4c921d98f2e96"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "element"
+    },
+    "isSymlink": true,
+    "hash": "dece05484839df110745b0a800297c33cc078287"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "element/address"
+    },
+    "isSymlink": true,
+    "hash": "dbaf8ce27cd02b33863013b4f13ea5b3e1cb804d"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "address/index"
+    },
+    "isSymlink": true,
+    "hash": "4cdfe247a29ab6bcbf6931d9270f8b3ebf576a92"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "element/base-container"
+    },
+    "isSymlink": true,
+    "hash": "a43b7b4341dd8a124da83c61fa71b73e5fd9233f"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "base-container/index"
+    },
+    "isSymlink": true,
+    "hash": "9dcc9aed0898d2a4ae9236b5da3ce1e8f5ffef77"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "element/footer"
+    },
+    "isSymlink": true,
+    "hash": "4fdd29facfac84ac9667d8f11e677b3d4a55cbb3"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "footer/index"
+    },
+    "isSymlink": true,
+    "hash": "89b0830c092b4b6c993ac9d673aab3f5f41aeb17"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "element/header"
+    },
+    "isSymlink": true,
+    "hash": "8968052da7b646dedc75d2b624f75e4ec39b72f4"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "header/index"
+    },
+    "isSymlink": true,
+    "hash": "bb05ecc3a540b92c9828eb3ccf43d32264d516fc"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "element/main"
+    },
+    "isSymlink": true,
+    "hash": "d7b6abe1d04e215fd30c35ae5da32eda83649fb3"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "main/index"
+    },
+    "isSymlink": true,
+    "hash": "74f34d5aede119810394f5952001ac076f61cfc4"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "element/section"
+    },
+    "isSymlink": true,
+    "hash": "0d87b7c25945f735a66457d63aa79237d299deed"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "section/index"
+    },
+    "isSymlink": true,
+    "hash": "b8fee0974ee1c3e4f2acfea793f1b93f6e267ca9"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "components/masthead"
+    },
+    "isSymlink": true,
+    "hash": "1fbf067a4d84b1e62b6408035eab13a360a0075b"
+  },
+  {
+    "id": {
+      "scope": null,
+      "name": "masthead/index"
+    },
+    "isSymlink": true,
+    "hash": "9d6032309d62c00f57728ffdae614cce6dc88117"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "address/address"
+    },
+    "isSymlink": false,
+    "hash": "a04260ae782eb62fdb35a8d65134bd1aed6e568a"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "base-container/base-container"
+    },
+    "isSymlink": false,
+    "hash": "4fc9b57f386602e93751d0a41401aff3a231da9e"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "element/button"
+    },
+    "isSymlink": false,
+    "hash": "563a58f777555bf59032a2bfcb8030a186459912"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "button/button"
+    },
+    "isSymlink": false,
+    "hash": "0ff45da858f406391c0ed25c34437cedecfe3a81"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "button-base"
+    },
+    "isSymlink": false,
+    "hash": "f2999513d0b304fd25011bab9b680c01ee2796bd"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "icon-button"
+    },
+    "isSymlink": false,
+    "hash": "c79b796627dd4f00b729d75d98e1acf942ab2962"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "link-button"
+    },
+    "isSymlink": false,
+    "hash": "c37a11fde254eb01bd179f14f02e39177aba0738"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "button/index"
+    },
+    "isSymlink": false,
+    "hash": "1e70bcd2cb006b794d4caa4957ac0fdf9d3c0efb"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "footer/footer"
+    },
+    "isSymlink": false,
+    "hash": "209b178413f902bbc4c8ea6d6450ee6972f678cd"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "header/header"
+    },
+    "isSymlink": false,
+    "hash": "7efbfe103c9cd4c3d75acd1672a77e46d777b58e"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "main/main"
+    },
+    "isSymlink": false,
+    "hash": "900e53d3e2a8cfa3a1f9fce2c18d7b1665a5e4b6"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "section/section"
+    },
+    "isSymlink": false,
+    "hash": "82137a4d2cc5a8c683e41853b2bd192d606a830f"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "element/index"
+    },
+    "isSymlink": false,
+    "hash": "4fc99ddd43ba3fafafe2c17a841756e245c427dc"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "masthead/masthead"
+    },
+    "isSymlink": false,
+    "hash": "79310ea3115780687afeb8dd55b365daddfbf239"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "element"
+    },
+    "isSymlink": false,
+    "hash": "a20f85f879fd1ce24b3628be0e40ede05c2173dc"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "element/address"
+    },
+    "isSymlink": false,
+    "hash": "5ceac3fb1534054c6f3ec868a81932f551d8c025"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "address/index"
+    },
+    "isSymlink": false,
+    "hash": "cdf7bb5eb7cac9ddcd89aa0e013f437cef596d61"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "element/base-container"
+    },
+    "isSymlink": false,
+    "hash": "7263890d8acae774ddaa0f4aeda69d663e62d707"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "base-container/index"
+    },
+    "isSymlink": false,
+    "hash": "e64bb3047c3cc4a7635893de460999ae9dd1e7ad"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "element/footer"
+    },
+    "isSymlink": false,
+    "hash": "52e16c3bd7dd8c14b4d19a4947b99100b87e1a54"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "footer/index"
+    },
+    "isSymlink": false,
+    "hash": "31b5347eb1217e75b0d78df377fc357bb154a222"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "element/header"
+    },
+    "isSymlink": false,
+    "hash": "438ddd607329202654b3ab13489959b829a27bae"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "header/index"
+    },
+    "isSymlink": false,
+    "hash": "6351e30336d45ab6d295f7f664ad7fa43b423ac0"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "element/main"
+    },
+    "isSymlink": false,
+    "hash": "d539ca4da2054a69048896debca93ec4eb787d51"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "main/index"
+    },
+    "isSymlink": false,
+    "hash": "3765b56dd2d4e86913bdfa7fbab38571a32cd9d1"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "element/section"
+    },
+    "isSymlink": false,
+    "hash": "b98bb4fe80831d4e1d222c4bb820115bf8f3e987"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "section/index"
+    },
+    "isSymlink": false,
+    "hash": "b817a1dd6df9e4a9937a180a1459794f4a3543e6"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "components/masthead"
+    },
+    "isSymlink": false,
+    "hash": "2fbc8d8c37a3311aa1e619d3c9a26af44c576d2a"
+  },
+  {
+    "id": {
+      "scope": "brendanpettis.itdev164",
+      "name": "masthead/index"
+    },
+    "isSymlink": false,
+    "hash": "b8afd7ac9676a392690a5c2ae9c0bc423788c64e"
+  }
+]
