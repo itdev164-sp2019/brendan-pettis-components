@@ -1,11 +1,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-import { ThemeProvider } from 'styled-components'
+import { ThemeProvider, ThemeConsumer } from 'styled-components'
 
 import { Gray as theme } from '../themes/Gray/Gray'
 import { Footer, Main } from '../components/Element'
-import Masthead from "../components/Masthead"
+import { Masthead, DefaultLayout }from "../components/Masthead"
 
 import "./layout.css"
 
@@ -23,7 +23,11 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <div>
-        <Masthead siteTitle={data.site.siteMetadata.title} height="75px" />
+        <Masthead height="85px">
+            <ThemeConsumer>
+              {theme => <DefaultLayout image={theme.images.mastheadImage}/>}
+            </ThemeConsumer>
+        </Masthead>
         <div
           style={{
             margin: `0 auto`,
