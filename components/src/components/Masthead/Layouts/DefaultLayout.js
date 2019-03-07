@@ -35,7 +35,7 @@ export const DefaultLayout = ({ image }) => (
         Subscribe
       </Button>
     </Item>
-  </Section>
+  </Section> 
   </StyledHeader>
 )
 
