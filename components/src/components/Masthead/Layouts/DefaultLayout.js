@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { Button, Header, Section } from '../../Element'
+import { Button, Header, Image, Section } from '../../Element'
 import { MenuButton, SearchButton } from '../../Buttons'
 
 const StyledHeader = styled(Header)`
@@ -24,7 +24,13 @@ export const DefaultLayout = ({ image }) => (
     </Item>
   </Section>
   <Section flex width={[4 / 12, 1 / 3, 1 / 3]} justifyContent="center">
-    <img src={image} alt='' />
+    <Image 
+    src={image} 
+    alt="masthead logo" 
+    height={[24, 60, 60]} 
+    width={[100,246,246]} 
+    mx="auto"
+    />
   </Section>
   <Section flex width={[8 / 12, 1 / 3, 1 / 3]} justifyContent="center">
   <Item>
