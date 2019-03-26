@@ -1,8 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { Button, Header, Section } from '../../Element'
+
+import { MediaQuery } from '../../MediaQuery'
 import { MenuButton, SearchButton } from '../../Buttons'
+import { 
+  Button, 
+  Header, 
+  Image, 
+  Link, 
+  Nav,
+  Section 
+} from '../../Element'
 
 const StyledHeader = styled(Header)`
   ${props => props.theme.defaults.masthead};
@@ -22,13 +31,31 @@ export const DefaultLayout = ({ image }) => (
     <Item>
       <MenuButton variant="contrast" />
     </Item>
+    <MediaQuery device="desktop">
+      <Nav flex style={{ lineHeight: '1.5em'}}>
+        <Item>
+          <Link variant="contrast" href="about.html">About</Link>
+        </Item>
+        <Item>
+          <Link variant="contrast" href="contact.html">Contact</Link>
+        </Item>
+      </Nav>
+    </MediaQuery>
   </Section>
   <Section flex width={[4 / 12, 1 / 3, 1 / 3]} justifyContent="center">
-    <img src={image} alt='' />
+    <Image 
+    src={image} 
+    alt="masthead logo" 
+    height={[24, 60, 60]} 
+    width={[100,246,246]} 
+    mx="auto"
+    />
   </Section>
   <Section flex width={[8 / 12, 1 / 3, 1 / 3]} justifyContent="center">
   <Item>
+    <MediaQuery device="tablet">
       <SearchButton variant="contrast" />
+    </MediaQuery>
     </Item>
     <Item>
       <Button fontSize={[0,2,3]} variant="contrast">
