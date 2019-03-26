@@ -58,6 +58,11 @@ const theme = {
       tablet: breakpoints[1],
       phone: breakpoints[0],
     }
+  },
+  transitions: {
+    short: 'all 0.3s ease-out',
+    medium: 'all 0.6s ease-out',
+    long: 'all 0.9s ease-out'
   }
 }
 
@@ -121,7 +126,15 @@ const variants = {
     contrast: {
       color: theme.colors.primary.contrastText
     }
-  }
+  },
+  mastheadDrawer: {
+    primary: {
+      background: theme.colors.primary.main
+    },
+    contrast: {
+      background: theme.colors.primary.contrastText
+    }
+  },
 }
 
 const Gray = { ...theme, defaults, variants, images, icons }
