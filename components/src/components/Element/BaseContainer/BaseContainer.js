@@ -1,4 +1,5 @@
-import React from 'react'
+// @flow
+import * as React from 'react'
 import PropTypes from 'prop-types'
 import { Flex, Box } from 'rebass'
 
@@ -7,24 +8,34 @@ import { Flex, Box } from 'rebass'
   This is useful because we can now wrap the children in the Flex or Box components, and still 
   pass down the rest of the props.
 */
-export const BaseContainer = ({ children, flex, ...props }) => {
+export function BaseContainer ({ 
+  children, 
+  flex, 
+  className,
+  ...props 
+  }: {
+    children: React.Node,
+    flex: boolean,
+    className: string,
+    props: any
+  }) {
   if(flex){
     return (
-    <Flex {...props} className={props.className}>
-      { children }
+      <Flex {...props} className={className}>
+        { children }
       </Flex>
       )
-  }
-  else {
+  } else {
     return (
-    <Box {...props} className={props.className}>
+    <Box {...props} className={className}>
       { children }
       </Box>
-      )
+    )
   }
 }
 
 BaseContainer.propTypes = {
   flex: PropTypes.bool,
   children: PropTypes.node.isRequired,
+  className: PropTypes.string
 }
