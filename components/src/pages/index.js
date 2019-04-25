@@ -4,6 +4,7 @@ import React from "react"
 import Layout from "../layouts/layout"
 import Image from "../gatsby-components/image"
 import SEO from "../gatsby-components/seo"
+import {ShareButtonList} from '../components/SocialShareButton'
 
 /* USE LATER
 import { Button, IconButton, Section } from "../components/Element"
@@ -41,6 +42,13 @@ const IndexPage = () => (
     <p>
     T-bone prosciutto ground round frankfurter burgdoggen salami rump spare ribs brisket pork loin. Short ribs rump bresaola cow sausage jerky chuck spare ribs venison fatback shank kielbasa short loin. Kevin leberkas hamburger corned beef tail biltong. Meatloaf tail picanha landjaeger drumstick tongue filet mignon swine salami chuck tri-tip. Shoulder t-bone meatball kielbasa, ground round spare ribs pig meatloaf sirloin. Short loin meatloaf ribeye chuck, chicken short ribs ball tip.
     </p>
+
+    <ShareButtonList 
+      addThisPubId='ra-5cc20138a1b645ee'
+      contentTitle='Fake title'
+      contentImage='http://placekitten.com/g/300/700'
+      contentDescription='Here is an article about science things, and maybe kittens'
+    />
   </Layout>
 )
 

@@ -11,7 +11,7 @@ const Outer = styled(Flex)`
   width: 100%;
   transition: ${({ theme }) => theme.transitions.medium };
   transform: ${props => (props.open ? 'translateY(0)' : 'translateY(-100%)')};
-  z-index: 9998;
+  z-index: -2;
   justify-content: center;
   ${props => props.theme.variants.mastheadDrawer[props.variant || 'primary']};
 `

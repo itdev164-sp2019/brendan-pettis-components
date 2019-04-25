@@ -1,8 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-
-import { MediaQuery } from '../../MediaQuery'
 import { MenuButton, SearchButton } from '../../Buttons'
 import { 
   Button, 
@@ -12,6 +10,9 @@ import {
   Nav,
   Section 
 } from '../../Element'
+
+
+import { MediaQuery } from '../../MediaQuery'
 
 const StyledHeader = styled(Header)`
   ${props => props.theme.defaults.masthead};
@@ -32,7 +33,7 @@ export const DefaultLayout = ({ image }) => (
       <MenuButton variant="contrast" />
     </Item>
     <MediaQuery device="desktop">
-      <Nav flex style={{ lineHeight: '1.5em'}}>
+      <Nav flex style={{lineHeight: '1.5em'}}>
         <Item>
           <Link variant="contrast" href="about.html">About</Link>
         </Item>
@@ -51,7 +52,7 @@ export const DefaultLayout = ({ image }) => (
     mx="auto"
     />
   </Section>
-  <Section flex width={[8 / 12, 1 / 3, 1 / 3]} justifyContent="center">
+  <Section flex width={[8 / 12, 1 / 3, 1 / 3]} justifyContent="flex-end">
   <Item>
     <MediaQuery device="tablet">
       <SearchButton variant="contrast" />

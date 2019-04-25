@@ -91,17 +91,7 @@ export default class Layout extends React.Component {
                 <ThemeConsumer>
                   {theme => <DefaultLayout image={theme.images.mastheadImage}/>}
                 </ThemeConsumer>
-            </Masthead>
-            <div
-              style={{
-                margin: `0 auto`,
-                maxWidth: 960,
-                padding: `0px 1.0875rem 1.45rem`,
-                paddingTop: 0,
-              }}
-            >
-              <Main mt={85}>
-                <MastheadDrawer
+              <MastheadDrawer
                   height="56px"
                   width="900px"
                   top="85px"
@@ -119,6 +109,17 @@ export default class Layout extends React.Component {
                   </Link>
                 ))}
                 </MastheadDrawer>
+            </Masthead>
+            <div
+              style={{
+                margin: `0 auto`,
+                maxWidth: 960,
+                padding: `0px 1.0875rem 1.45rem`,
+                paddingTop: 0,
+              }}
+            >
+              <Main mt={85}>
+    
                 {children}
               </Main>
               <Footer>
